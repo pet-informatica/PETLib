@@ -18,12 +18,13 @@ body {
         linear-gradient(90deg, #d6e5ff 3px, transparent 1px);
     background-size: 25px 25px, 25px 25px, 20px 20px, 20px 20px;
     background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
-
-    border: thin solid black;
 }
 
 .title {
     font-family: Impact;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 60px;
 }
 
 .info > * {
